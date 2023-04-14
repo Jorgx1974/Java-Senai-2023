@@ -17,7 +17,9 @@ System.out.println("digite a 2º nota: ");
 nota2= sc.nextDouble();
 System.out.println("digite a 3º nota:");
 nota3=sc.nextDouble();
-
+media =(nota1+nota2+nota3)/3;
+System.out.println("O aluno obteve média:" +media);
+sc.close();
 
 
 }    
