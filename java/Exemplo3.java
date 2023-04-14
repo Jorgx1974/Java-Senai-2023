@@ -2,7 +2,7 @@
 
 public class Exemplo3{
 
-public static final double BASE = 5.5;    
+public static final double BASE = 5.5; // A base é uma constante   
 
 public static void main(String[] args) {
  
