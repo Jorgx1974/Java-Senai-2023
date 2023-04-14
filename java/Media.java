@@ -10,6 +10,10 @@ public class Media {
 public static void main(String[] args) {
     Scanner sc =new Scanner(System.in); //Sempre escrever assim
 double nota1, nota2, nota3, media; // Declaração das variáveis
+String name="Jorge Miguel Mesquita Flor";
+float RM =(float)  23158657;
+System.out.println("a nota do aluno: "+name);
+System.out.println("da matricula: " +RM);
 
 System.out.println("Digite a 1º nota: " );
 nota1= sc.nextDouble();
