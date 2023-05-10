@@ -5,8 +5,12 @@ public class Media2 {
         Scanner sc = new Scanner (System.in);
     int numerosAlunos =0;
     double mediaTurma =0;
-    double mediaAluno=0;  while(mediaAluno!= -1){
-     System.out.println("Digite a média do aluno");   
+    double mediaAluno=0;  
+    while(mediaAluno!= -1){
+    System.out.println("=======INSTRUÇÕES======\n");
+ System.out.println("não digite notas negativas\n");
+ System.out.println("para encerra o progr,a digite[-1]\n");   
+        System.out.println("Digite a média do aluno");   
  mediaAluno =sc.nextDouble();    
 if(mediaAluno != -1){
     numerosAlunos++; //Estou incrementando os alunos (+1)
