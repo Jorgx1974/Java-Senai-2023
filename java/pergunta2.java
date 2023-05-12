@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class alisameupelo {
+public class pergunta2 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         
@@ -10,13 +10,13 @@ public class alisameupelo {
         for (int i = 1; i <= 5; i++) {
         System.out.println("Pessoa " + i);
         
-        System.out.print ("Informe a idade dessa pessoa: ");
+        System.out.print ("Informe a idade dessa pessoa\n: ");
         int idade = sc.nextInt();
         
-        System.out.print("Informe a altura  dessa pessoa: ");
+        System.out.print("Informe a altura  dessa pessoa\n: ");
         double altura = sc.nextDouble();
         
-        System.out.print("Informe o peso em kg dessa pessoa: ");
+        System.out.print("Informe o peso em kg dessa pessoa:\n ");
         double peso = sc.nextDouble();
         
         if (idade > 50) {
@@ -31,12 +31,12 @@ public class alisameupelo {
         pessoasEntre1e2m++;
         }
         
-        System.out.println(); 
+       
         }
         
-        System.out.println("Pessoas com mais de 50 anos: " + pessoasMaisDe50Anos);
-        System.out.println("Pessoas com menos de 40kg: " + pessoasMenosDe40kg);
-        System.out.println("Pessoas com altura entre 1m e 2m: " + pessoasEntre1e2m);
+        System.out.println("Pessoas com mais de 50 anos\n: " + pessoasMaisDe50Anos);
+        System.out.println("Pessoas com menos de 40kg\n: " + pessoasMenosDe40kg);
+        System.out.println("Pessoas com altura entre 1m e 2m\n: " + pessoasEntre1e2m);
         
         sc.close();
         }
